@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHX0MWRDXH6sBe3C7MY992lFBXSPC4o-yyig&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 15px;
+}
+.text-container{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.phone-container{
+    width: 100%;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+.flag-container >img{
+    width: 30px;
+    padding: 7px 0 6px 6px;
+}
+.pin-container > select{
+    height: 35px;
+    padding-top:5px;
+    border: 1px solid white;
+}
+.space-icon{
+    padding:8px;
+}
+.number-container > input{
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: lighter;
+    border:1px white;
+    padding-bottom: 5px;
+}
+.OTP-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.OTP-container > button{
+    width:100%;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(226, 67, 67);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+.email-container{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.email-logo {
+    color: red;
+    padding-right:10px;
+}
+.email-text>p{
+    font-weight: light;
+}
+.google-signin-container{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.google-logo>img{
+    width: 30px;
+    padding-right: 10px;
+}
+.footer-container{
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+}
+.footer-text1{
+    font-size: 17px;
+    padding-right: 3px;
+    color: black;
+    font-weight: lighter;
+}
+.footer-text2{
+    font-size: 17px;
+    color: red;
+    font-weight: lighter;
+}
+.OTP-container>button:hover{
+    background-color: red;
+}
+
+
+
+

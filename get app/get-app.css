@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid balck;
+}
+.nav-container > h3{
+    padding-left: 45%;
+    font-size: 40px;
+}
+hr{
+    color: lightgrey;
+}
+.list-container{
+    width: 350px;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 200px;
+    font-size: 18px;
+    color: grey;
+
+}
+.get-app-container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+.get-app-image-container{
+    width:45%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.get-app-image-container > img{
+    width: 400px;
+    padding-top: 95px;
+    justify-content: end;
+}
+.get-app-text-container{
+    width:50%;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.heading-text{
+    margin-bottom: 25px;
+}
+.heading-text > p{
+    font-size: 18px;
+    color:black;
+    font-weight: lighter;
+
+}
+.heading-text >h3{
+    padding-bottom:30px;
+    font-size:45px;
+}
+
+.form-container1{
+    display: flex;
+    column-gap: 10px;
+    padding-bottom: 10px;
+    font-size:18px;
+    font-weight: lighter;
+}
+.form-container1 > label{
+    cursor: pointer;
+}
+.radio-button{
+    transform: scale(1.7);
+    padding-right: 10px;
+    accent-color: red;
+    cursor: pointer;
+    
+}
+
+.form-container2{
+    padding-top: 13px;
+    padding-bottom:25px;
+}
+.form-container2 > input{
+    width:280px;
+    height: 45px;
+    padding: 8px;
+    font-size: 15px;
+    border:1px solid grey;
+    border-radius: 8px;
+}
+.form-container2 >button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(210, 53, 53);
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+.container3-text{
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: grey;
+}
+.container3-image > img{
+    width: 150px;
+}
+
